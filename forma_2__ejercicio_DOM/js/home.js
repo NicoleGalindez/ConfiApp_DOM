@@ -225,7 +225,8 @@ let decide = parseInt(prompt("¿Me recuerdas el rol qué ocupas? : 1  Tutor, 2  
 
 //_________________________________________________________________________________----
   // contenido   CONTENIDO
-/*
+/*     // EJERCICIO EN CLASE*******
+      
 //  bienvenido, menu y contenido dependiendo 1,2,3:
 let ingresa;
 do{
