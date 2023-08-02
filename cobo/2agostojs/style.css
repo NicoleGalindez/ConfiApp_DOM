@@ -1,0 +1,66 @@
+body{
+    text-align: center;
+    font-size: 1.4em;
+}
+
+
+#tit{
+    font-size: 2em;
+    font-style: italic;
+}
+
+
+
+
+form{
+    border: 2px solid red;
+    width: fit-content;
+    margin: 0 auto;
+    padding-right: 20px;
+    border-radius: 8px;
+}
+
+
+
+
+ul{
+    list-style: none;
+}
+
+
+
+#boton{
+    background-color: red;
+    border-radius: 6px;
+    font-size: 2em;
+    color: white;
+    border: 1px solid red;
+}
+
+
+#boton:hover{
+    background-color: blueviolet;
+    border-radius: 6px;
+    font-size: 2em;
+    color: white;
+    border: 1px solid blueviolet;
+    transition-duration: 400ms;
+}
+
+
+
+
+.animate-body {
+    transition: background-color 600ms;
+}
+
+
+
+
+
+form:hover{
+    background-color: azure;
+    transition: 670ms;
+    color: black;
+    border: 3px solid blueviolet;
+}
