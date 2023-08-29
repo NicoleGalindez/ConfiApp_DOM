@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Estilos.css">
+    <title>FORMULARIO</title>
+</head>
+<body>
+    
+    <form id="formulario" onsubmit="(event)" method="post">
+        <ul>
+           <b><center><legend>DATOS DEL PADRE</legend></center></b> 
+          <li>
+            <label for="name">Cédula del Padre:</label>
+            <input type="text" id="cedula" name="user_name" />
+          </li>
+          <li>
+            <label for="mail">Nombres del Padre:</label>
+            <input type="text" id="nombres" name="user_mail" />
+          </li>
+          <li>
+            <label for="mail">Apellidos del Padre:</label>
+            <input type="text" id="apellidos" name="user_mail" />
+          </li>
+          <li>
+            <label for="mail">Correo del Padre:</label>
+            <input type="email" id="correo" name="user_mail" />
+          </li>
+          <li>
+            <label for="mail">Fecha Nacimiento del Padre:</label>
+            <input type="date" id="fecha" name="user_mail" />
+          </li>
+          <li>
+            <label for="mail">Parentesco con el Menor:</label>
+            <input type="text" id="parentesco" name="user_mail" />
+          </li>
+<br>
+         <b><center><legend>DATOS DEL MENOR</legend></center></b> 
+
+          <li>
+            <label for="mail">Nombres del Menor:</label>
+            <input type="text" id="nombresMenor" name="user_mail" />
+          </li>
+          <li>
+            <label for="mail">Apellidos del Menor:</label>
+            <input type="text" id="apellidosMenor" name="user_mail" />
+
+            <li class="button">
+                <button type="submit">Envíe su mensaje</button>
+              </li>
+          
+        </ul>
+      </form>
+      
+
+
+
+
+    <script src="Logica.js"></script>
+</body>
+</html>
