@@ -42,11 +42,16 @@
 
 
 #hola:hover{
-    background-color: rgba(116, 220, 233, 0.841);
+    background-color: #ace0d7;
     color: white;
     transition: 400ms;
 }
 
+.pointer{
+
+    cursor: pointer;
+    
+}
 
 
 #distancia{
